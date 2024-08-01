@@ -1,5 +1,5 @@
 import SearchHeader from "@/components/SearchHeader";
-import "./../global.css";
+import "./../globals.css";
 
 export default function layout({ children }) {
   return (
