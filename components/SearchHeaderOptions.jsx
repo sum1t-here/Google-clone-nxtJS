@@ -1,5 +1,6 @@
 "use client";
 import { usePathname, useRouter, useSearchParams } from "next/navigation";
+import { Suspense } from "react";
 import { AiOutlineCamera, AiOutlineSearch } from "react-icons/ai";
 
 function SearchHeaderOptions() {
